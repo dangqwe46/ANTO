@@ -1,0 +1,157 @@
+<html>
+  <head></head>
+  <body style="overflow-wrap: break-word">
+    <title>HTML Web Resource</title>
+    <script
+      src="../ClientGlobalContext.js.aspx"
+      type="text/javascript"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="../ant_lib.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      function getUrlParameters() {
+        var queryString = location.search.substring(1);
+        var params = {};
+        var queryStringParts = queryString.split("&");
+        for (var i = 0; i < queryStringParts.length; i++) {
+          var pieces = queryStringParts[i].split("=");
+          params[pieces[0].toLowerCase()] =
+            pieces.length === 1 ? null : decodeURIComponent(pieces[1]);
+        }
+        return params;
+        //return param is string: "{GUID}&APPROVE/REJECT"
+      }
+      function SuccessCallback() {
+        var formContext = parent.getContext();
+        console.log("SuccessCallback");
+        ANT.Utility.closeProgressIndicator();
+        ANT.Navigate.openAlertDialog("Success");
+        $("button[data-id='dialogCloseIconButton']", parent.document).click();
+        formContext.ui.refreshRibbon(true);
+      }
+      function ErrorCallback(error) {
+        var formContext = parent.getContext();
+        console.log("ErrorCallback");
+        ANT.Utility.closeProgressIndicator();
+        ANT.Navigate.openAlertDialog(error.message);
+        formContext.ui.refreshRibbon(true);
+      }
+      function GetResponse() {
+        debugger;
+        var comment = document.getElementById("inputReason").value;
+        let param = getUrlParameters();
+        //split param to [GUID,Action]
+        var data = param.data.split("&");
+        // return data[0] is requestId, data[1] is action
+        if (comment == null || comment == undefined) {
+          comment = "";
+        }
+        //data[2] is comment
+        data.push(comment); //[GUID,Action,Comment]
+        var inputParams = {
+          ApprovalRequestId: data[0],
+          Action: data[1],
+          Comment: data[2],
+        };
+        try {
+          console.log(inputParams);
+          ANT.Utility.showProgressIndicator("Please wait a moment...");
+          // ANT.SOAP.callAction(
+          //   "ant_ANTApprovalApproveReject",
+          //   inputParams,
+          //   SuccessCallback,
+          //   ErrorCallback,
+          //   true
+          // );
+          var callAction = ANT.OData.callAction(
+            null,
+            null,
+            "ant_ANTApprovalApproveReject",
+            inputParams
+          );
+          callAction.then(
+            function (response) {
+              SuccessCallback();
+            },
+            function (error) {
+              ErrorCallback(error);
+            }
+          );
+        } catch (e) {
+          ANT.Navigate.openAlertDialog(e);
+        }
+      }
+      function ClickCancel() {
+        $("button[data-id='dialogCloseIconButton']", parent.document).click();
+      }
+    </script>
+    <style>
+      body {
+        font-family: Segoe UI, Tahoma, Arial;
+        font-size: 12px;
+        padding: 0 30px 30px 30px;
+      }
+
+      .header {
+        font-family: Segoe UI Light, Segoe UI, Tahoma, Arial;
+        font-size: 30px;
+      }
+
+      #inputReason {
+        width: 100%;
+        font-family: Segoe UI, Tahoma, Arial;
+        font-size: 12px;
+      }
+
+      .inline-label {
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
+
+      .div-response {
+        padding-bottom: 5%;
+      }
+      .btn {
+        height: 25px;
+        width: 100px;
+        margin: 0 5px 0 0;
+      }
+      .float-right {
+        float: right;
+      }
+      .text-center {
+        text-align: center;
+      }
+    </style>
+
+    <div>
+      <div id="headerTitle" class="header">Approval Request</div>
+      <div class="inline-label">
+        <span id="spanLabel" style="text-align: left; white-space: normal"
+          >Please provide comment.</span
+        >
+      </div>
+      <div class="div-response">
+        <textarea id="inputReason" rows="5"></textarea>
+      </div>
+      <div class="div-response">
+        <div class="float-right">
+          <input
+            id="btnOk"
+            class="ms-crm-RefreshDialog-Button"
+            type="button"
+            value="OK"
+            onclick="GetResponse()"
+          />
+          <input
+            id="btnCancel"
+            class="ms-crm-RefreshDialog-Button"
+            type="button"
+            value="Cancel"
+            onclick="ClickCancel();"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

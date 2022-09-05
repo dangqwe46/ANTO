@@ -1,0 +1,7 @@
+D:\Projects\ANTO\Source\ANT.EO.WebResource\bin\ANT.EO.WebResource.dll.config
+D:\Projects\ANTO\Source\ANT.EO.WebResource\bin\ANT.EO.WebResource.dll
+D:\Projects\ANTO\Source\ANT.EO.WebResource\bin\ANT.EO.WebResource.pdb
+D:\Projects\ANTO\Source\ANT.EO.WebResource\obj\Debug\ANT.EO.WebResource.csproj.AssemblyReference.cache
+D:\Projects\ANTO\Source\ANT.EO.WebResource\obj\Debug\ANT.EO.WebResource.csproj.CoreCompileInputs.cache
+D:\Projects\ANTO\Source\ANT.EO.WebResource\obj\Debug\ANT.EO.WebResource.dll
+D:\Projects\ANTO\Source\ANT.EO.WebResource\obj\Debug\ANT.EO.WebResource.pdb

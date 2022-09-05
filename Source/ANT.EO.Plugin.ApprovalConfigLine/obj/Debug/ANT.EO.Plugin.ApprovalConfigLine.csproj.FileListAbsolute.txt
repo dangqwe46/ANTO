@@ -1,0 +1,11 @@
+D:\Projects\ANTO\Source\ANT.EO.Plugin.ApprovalConfigLine\bin\Debug\ANT.Action.Approval.dll
+D:\Projects\ANTO\Source\ANT.EO.Plugin.ApprovalConfigLine\bin\Debug\ANT.Action.Approval.pdb
+D:\Projects\ANTO\Source\ANT.EO.Plugin.ApprovalConfigLine\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+D:\Projects\ANTO\Source\ANT.EO.Plugin.ApprovalConfigLine\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\ANTO\Source\ANT.EO.Plugin.ApprovalConfigLine\bin\Debug\Microsoft.Xrm.Sdk.xml
+D:\Projects\ANTO\Source\ANT.EO.Plugin.ApprovalConfigLine\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+D:\Projects\ANTO\Source\ANT.EO.Plugin.ApprovalConfigLine\obj\Debug\ANT.EO.Plugin.ApprovalConfigLine.csproj.CoreCompileInputs.cache
+D:\Projects\ANTO\Source\ANT.EO.Plugin.ApprovalConfigLine\obj\Debug\ANT.EO.Plugin.ApprovalConfigLine.csproj.CopyComplete
+D:\Projects\ANTO\Source\ANT.EO.Plugin.ApprovalConfigLine\obj\Debug\ANT.Action.Approval.dll
+D:\Projects\ANTO\Source\ANT.EO.Plugin.ApprovalConfigLine\obj\Debug\ANT.Action.Approval.pdb
+D:\Projects\ANTO\Source\ANT.EO.Plugin.ApprovalConfigLine\obj\Debug\ANT.EO.Plugin.ApprovalConfigLine.csproj.AssemblyReference.cache

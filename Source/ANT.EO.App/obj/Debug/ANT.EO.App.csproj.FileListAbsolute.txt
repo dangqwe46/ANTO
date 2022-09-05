@@ -1,0 +1,3 @@
+D:\Projects\ANTO\Source\ANT.EO.App\obj\Debug\ANT.EO.App.csprojAssemblyReference.cache
+D:\Projects\ANTO\Source\ANT.EO.App\obj\Debug\ANT.EO.App.csproj.CoreCompileInputs.cache
+D:\Projects\ANTO\Source\ANT.EO.App\obj\Debug\ANT.EO.App.csproj.AssemblyReference.cache

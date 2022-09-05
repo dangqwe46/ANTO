@@ -1,0 +1,163 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANT.Action.Approval", "ANT.Action.Approval\ANT.Action.Approval.csproj", "{4C287F75-85A9-4DDA-AAB4-028086EE03F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANT.Plugin.ApproverList", "ANT.Plugin.ApproverList\ANT.Plugin.ApproverList.csproj", "{75414072-A7CF-42A7-B19A-B997898DB5DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANT.EO.WebResource", "ANT.EO.WebResource\ANT.EO.WebResource.csproj", "{B9118A8E-F010-4CEA-85B8-5843DB8A2BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANT.EO.App", "ANT.EO.App\ANT.EO.App.csproj", "{2BA9172F-7243-4C1B-978E-44816BA4F572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANT.EO.Plugin.ApprovalConfigLine", "ANT.EO.Plugin.ApprovalConfigLine\ANT.EO.Plugin.ApprovalConfigLine.csproj", "{21801D1A-26DC-43B7-8D10-B6CFFC47FC6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANT.EO.Plugin.ApprovalRequest", "ANT.EO.Plugin.ApprovalRequest\ANT.EO.Plugin.ApprovalRequest.csproj", "{454BF04A-CECC-4F04-B98C-CD6C370CC4C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugApp", "DebugApp\DebugApp.csproj", "{E0A8A406-20C7-4D0A-A944-83FFF640CA20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANT.EO.Plugin.ApprovalLevelConfig", "ANT.EO.Plugin.ApprovalConfigLevel\ANT.EO.Plugin.ApprovalLevelConfig.csproj", "{F155945F-BC81-4EAF-A079-E57687F212D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANT.EO.Plugin.BudgetLine", "ANT.EO.Plugin.BudgetLine\ANT.EO.Plugin.BudgetLine.csproj", "{D339EC96-03F9-4C05-A8D9-280D481E9A2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANT.EO.WorkFlow.CopyFromTemplateConfig", "..\Workflow\CopyFromTemplate\ANT.EO.WorkFlow.CopyFromTemplateConfig\ANT.EO.WorkFlow.CopyFromTemplateConfig\ANT.EO.WorkFlow.CopyFromTemplateConfig.csproj", "{C23EE372-9650-44DF-B104-BAFF5CD4F3CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANT.EO.Action.ApproveReject", "ANT.EO.Action.Approve\ANT.EO.Action.ApproveReject.csproj", "{8053AF9A-0A7E-4243-80C2-44EC3236AC78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANT.EO.Plugin.HandleOnApprovalConfig", "ANT.EO.Plugin.HandleOnApprovalConfig\ANT.EO.Plugin.HandleOnApprovalConfig.csproj", "{4E275C38-25EC-43FA-B56F-7DAF7E9857F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANT.EO.Plugin.HandleOnApprovalConfigLine", "ANT.EO.Plugin.HandleOnApprovalConfigLine\ANT.EO.Plugin.HandleOnApprovalConfigLine.csproj", "{A5F66480-A248-4449-A12A-0FBD6262E68A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANT.EO.Plugin.HandleOnApprovalConfigLevels", "ANT.EO.Plugin.HandleOnApprovalConfigLevels\ANT.EO.Plugin.HandleOnApprovalConfigLevels.csproj", "{F8CC434C-8BD8-4ADB-B50B-0E07674DE7FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANT.EO.Plugin.HandleOnApprovalRequest", "ANT.EO.Plugin.HandleOnApprovalRequest\ANT.EO.Plugin.HandleOnApprovalRequest.csproj", "{B1745BF0-1D5E-4AFC-A876-EE91B87E688A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C287F75-85A9-4DDA-AAB4-028086EE03F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C287F75-85A9-4DDA-AAB4-028086EE03F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C287F75-85A9-4DDA-AAB4-028086EE03F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C287F75-85A9-4DDA-AAB4-028086EE03F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75414072-A7CF-42A7-B19A-B997898DB5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75414072-A7CF-42A7-B19A-B997898DB5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75414072-A7CF-42A7-B19A-B997898DB5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75414072-A7CF-42A7-B19A-B997898DB5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9118A8E-F010-4CEA-85B8-5843DB8A2BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9118A8E-F010-4CEA-85B8-5843DB8A2BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9118A8E-F010-4CEA-85B8-5843DB8A2BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9118A8E-F010-4CEA-85B8-5843DB8A2BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA9172F-7243-4C1B-978E-44816BA4F572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA9172F-7243-4C1B-978E-44816BA4F572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA9172F-7243-4C1B-978E-44816BA4F572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA9172F-7243-4C1B-978E-44816BA4F572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21801D1A-26DC-43B7-8D10-B6CFFC47FC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21801D1A-26DC-43B7-8D10-B6CFFC47FC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21801D1A-26DC-43B7-8D10-B6CFFC47FC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21801D1A-26DC-43B7-8D10-B6CFFC47FC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{454BF04A-CECC-4F04-B98C-CD6C370CC4C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454BF04A-CECC-4F04-B98C-CD6C370CC4C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454BF04A-CECC-4F04-B98C-CD6C370CC4C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454BF04A-CECC-4F04-B98C-CD6C370CC4C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A8A406-20C7-4D0A-A944-83FFF640CA20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A8A406-20C7-4D0A-A944-83FFF640CA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A8A406-20C7-4D0A-A944-83FFF640CA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A8A406-20C7-4D0A-A944-83FFF640CA20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F155945F-BC81-4EAF-A079-E57687F212D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F155945F-BC81-4EAF-A079-E57687F212D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F155945F-BC81-4EAF-A079-E57687F212D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F155945F-BC81-4EAF-A079-E57687F212D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D339EC96-03F9-4C05-A8D9-280D481E9A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D339EC96-03F9-4C05-A8D9-280D481E9A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D339EC96-03F9-4C05-A8D9-280D481E9A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D339EC96-03F9-4C05-A8D9-280D481E9A2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23EE372-9650-44DF-B104-BAFF5CD4F3CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23EE372-9650-44DF-B104-BAFF5CD4F3CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23EE372-9650-44DF-B104-BAFF5CD4F3CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23EE372-9650-44DF-B104-BAFF5CD4F3CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8053AF9A-0A7E-4243-80C2-44EC3236AC78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8053AF9A-0A7E-4243-80C2-44EC3236AC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8053AF9A-0A7E-4243-80C2-44EC3236AC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8053AF9A-0A7E-4243-80C2-44EC3236AC78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E275C38-25EC-43FA-B56F-7DAF7E9857F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E275C38-25EC-43FA-B56F-7DAF7E9857F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E275C38-25EC-43FA-B56F-7DAF7E9857F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E275C38-25EC-43FA-B56F-7DAF7E9857F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F66480-A248-4449-A12A-0FBD6262E68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F66480-A248-4449-A12A-0FBD6262E68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F66480-A248-4449-A12A-0FBD6262E68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F66480-A248-4449-A12A-0FBD6262E68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CC434C-8BD8-4ADB-B50B-0E07674DE7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CC434C-8BD8-4ADB-B50B-0E07674DE7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CC434C-8BD8-4ADB-B50B-0E07674DE7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CC434C-8BD8-4ADB-B50B-0E07674DE7FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1745BF0-1D5E-4AFC-A876-EE91B87E688A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1745BF0-1D5E-4AFC-A876-EE91B87E688A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1745BF0-1D5E-4AFC-A876-EE91B87E688A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1745BF0-1D5E-4AFC-A876-EE91B87E688A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCCEC8FE-B232-4FC9-BF43-2CB5743CCDDB}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 16
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/antrealestatesolutions
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ANT.Action.Approval\\ANT.Action.Approval.csproj
+		SccProjectName1 = ANT.Action.Approval
+		SccLocalPath1 = ANT.Action.Approval
+		SccProjectUniqueName2 = ANT.Plugin.ApproverList\\ANT.Plugin.ApproverList.csproj
+		SccProjectName2 = ANT.Plugin.ApproverList
+		SccLocalPath2 = ANT.Plugin.ApproverList
+		SccProjectUniqueName3 = ANT.EO.WebResource\\ANT.EO.WebResource.csproj
+		SccProjectName3 = ANT.EO.WebResource
+		SccLocalPath3 = ANT.EO.WebResource
+		SccProjectUniqueName4 = ANT.EO.Plugin.ApprovalConfigLine\\ANT.EO.Plugin.ApprovalConfigLine.csproj
+		SccProjectName4 = ANT.EO.Plugin.ApprovalConfigLine
+		SccLocalPath4 = ANT.EO.Plugin.ApprovalConfigLine
+		SccProjectUniqueName5 = ANT.EO.App\\ANT.EO.App.csproj
+		SccProjectName5 = ANT.EO.App
+		SccLocalPath5 = ANT.EO.App
+		SccProjectUniqueName6 = ANT.EO.Plugin.ApprovalRequest\\ANT.EO.Plugin.ApprovalRequest.csproj
+		SccProjectName6 = ANT.EO.Plugin.ApprovalRequest
+		SccLocalPath6 = ANT.EO.Plugin.ApprovalRequest
+		SccProjectUniqueName7 = DebugApp\\DebugApp.csproj
+		SccProjectName7 = DebugApp
+		SccLocalPath7 = DebugApp
+		SccProjectUniqueName8 = ANT.EO.Plugin.ApprovalConfigLevel\\ANT.EO.Plugin.ApprovalLevelConfig.csproj
+		SccProjectName8 = ANT.EO.Plugin.ApprovalConfigLevel
+		SccLocalPath8 = ANT.EO.Plugin.ApprovalConfigLevel
+		SccProjectUniqueName9 = ANT.EO.Plugin.BudgetLine\\ANT.EO.Plugin.BudgetLine.csproj
+		SccProjectName9 = ANT.EO.Plugin.BudgetLine
+		SccLocalPath9 = ANT.EO.Plugin.BudgetLine
+		SccProjectUniqueName10 = ..\\Workflow\\CopyFromTemplate\\ANT.EO.WorkFlow.CopyFromTemplateConfig\\ANT.EO.WorkFlow.CopyFromTemplateConfig\\ANT.EO.WorkFlow.CopyFromTemplateConfig.csproj
+		SccProjectName10 = ANT.EO.WorkFlow.CopyFromTemplateConfig
+		SccLocalPath10 = ..\\Workflow\\CopyFromTemplate\\ANT.EO.WorkFlow.CopyFromTemplateConfig\\ANT.EO.WorkFlow.CopyFromTemplateConfig
+		SccProjectUniqueName11 = ANT.EO.Action.Approve\\ANT.EO.Action.ApproveReject.csproj
+		SccProjectName11 = ANT.EO.Action.Approve
+		SccLocalPath11 = ANT.EO.Action.Approve
+		SccProjectUniqueName12 = ANT.EO.Plugin.HandleOnApprovalConfig\\ANT.EO.Plugin.HandleOnApprovalConfig.csproj
+		SccProjectName12 = ANT.EO.Plugin.HandleOnApprovalConfig
+		SccLocalPath12 = ANT.EO.Plugin.HandleOnApprovalConfig
+		SccProjectUniqueName13 = ANT.EO.Plugin.HandleOnApprovalConfigLine\\ANT.EO.Plugin.HandleOnApprovalConfigLine.csproj
+		SccProjectName13 = ANT.EO.Plugin.HandleOnApprovalConfigLine
+		SccLocalPath13 = ANT.EO.Plugin.HandleOnApprovalConfigLine
+		SccProjectUniqueName14 = ANT.EO.Plugin.HandleOnApprovalConfigLevels\\ANT.EO.Plugin.HandleOnApprovalConfigLevels.csproj
+		SccProjectName14 = ANT.EO.Plugin.HandleOnApprovalConfigLevels
+		SccLocalPath14 = ANT.EO.Plugin.HandleOnApprovalConfigLevels
+		SccProjectUniqueName15 = ANT.EO.Plugin.HandleOnApprovalRequest\\ANT.EO.Plugin.HandleOnApprovalRequest.csproj
+		SccProjectName15 = ANT.EO.Plugin.HandleOnApprovalRequest
+		SccLocalPath15 = ANT.EO.Plugin.HandleOnApprovalRequest
+	EndGlobalSection
+	GlobalSection(CRMSolutionProperties) = preSolution
+		SolutionIsBoundToCRM = True
+	EndGlobalSection
+EndGlobal

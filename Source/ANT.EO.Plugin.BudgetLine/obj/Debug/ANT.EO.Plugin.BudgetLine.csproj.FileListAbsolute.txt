@@ -1,0 +1,9 @@
+D:\Projects\ANTO\Source\ANT.EO.Plugin.BudgetLine\bin\Debug\ANT.EO.Plugin.BudgetLine.dll
+D:\Projects\ANTO\Source\ANT.EO.Plugin.BudgetLine\bin\Debug\ANT.EO.Plugin.BudgetLine.pdb
+D:\Projects\ANTO\Source\ANT.EO.Plugin.BudgetLine\bin\Debug\Microsoft.Xrm.Sdk.dll
+D:\Projects\ANTO\Source\ANT.EO.Plugin.BudgetLine\bin\Debug\Microsoft.Xrm.Sdk.xml
+D:\Projects\ANTO\Source\ANT.EO.Plugin.BudgetLine\obj\Debug\ANT.EO.Plugin.BudgetLine.csproj.CoreCompileInputs.cache
+D:\Projects\ANTO\Source\ANT.EO.Plugin.BudgetLine\obj\Debug\ANT.EO.Plugin.BudgetLine.csproj.CopyComplete
+D:\Projects\ANTO\Source\ANT.EO.Plugin.BudgetLine\obj\Debug\ANT.EO.Plugin.BudgetLine.dll
+D:\Projects\ANTO\Source\ANT.EO.Plugin.BudgetLine\obj\Debug\ANT.EO.Plugin.BudgetLine.pdb
+D:\Projects\ANTO\Source\ANT.EO.Plugin.BudgetLine\obj\Debug\ANT.EO.Plugin.BudgetLine.csproj.AssemblyReference.cache
